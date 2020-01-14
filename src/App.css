@@ -1,38 +1,344 @@
-.App {
-  text-align: center;
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    color: blue;
+    font-size: 150%;
+    font-style: initial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    margin: 0 1% 0 1%;
+    color: rgba(0, 0, 0, 0.705);
+    font-style: inherit;
+    font-style: italic;
+}
+.grid {
+    display: grid;
+}
+.color-primary {
+    color: #FF6F61;
+}
+.logo {
+    padding: 1%;
+    color: black;
+}
+.header-layout {
+    grid-template-columns: 70% 30%;
+    background-color:white;
+    margin: 0px;
+    
+}
+.welcome-container {
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+.profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column: 1 / span 2;
+}
+.profile img {
+    object-fit: contain;
+    width: 30%;
+    border-radius: 100%;
+    justify-self: end;
+    align-self: center;
+}
+.profile h1 {
+    text-align: center;
+
+}
+.welcome-content h5 {
+    grid-column: 1 / span 3;
+    font-size: 150%;
+    margin-top: 4px;
+}
+.desc{
+    margin-top: 10px;
+   font-size: 130%;
+
+}
+.portfolio {
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1%;
+    grid-row-gap: 2%;
+
+}
+.portfolio > img {
+    object-fit: contain;
+    width: 97%;
+    max-height: 970%;
+    display: grid;
+    border: 5px solid white;
+    border-radius: 11%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-layout {
+    grid-template-columns: 70% 30%;
+    background-color:white;
+    margin: 0px; 
+}
+.grid h2{
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+}
+h3{
+    margin-left:30%; 
+    color: #FF6F61;
+    font-style: italic;
+}
+.about-container{
+    grid-template-columns: 30% 70%;
+    margin: auto 2% auto 1%;
+}
+.about-container img{
+    width: 98%;
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-contact h1{
+    color: blueviolet;
+    font-style: italic;
+    
+}
+.grid h2{
+    text-align: center;
+    margin-top: -3%;
+    color:burlywood;
+    
+}
+.box-title {
+    
+    font-size: 150%;
+    color: #FF6F61;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+.box-content{
+    text-align: center;
+}
+.work-box .fa{
+    font-size: 250%;
+    color:greenyellow;
+    margin-left: 5%;
+}
+.address-box p{
+margin-left: 10%;
+}
+.address-box .fa{
+    font-size: 250%;
+    color:greenyellow;
+    margin-right:20%;
+}
+.work-box p{
+    margin-left: 10%;
+}
+.input{
+   
+    max-width: 350px;
+    min-height: 200px;
+    margin-left: 450px;
+    font-style: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+}
+.input-box{
+    float: left;
+    width: 10%;
+    height: 20%;
+    margin: 0px;
+   height: 195px;
+    max-height: 195px;
+    margin-bottom: 0;
+   margin-bottom: 30px;
+}
+.box-contact :focus{
+    height: 10%;
+    width: 25%;
+    margin: 0%;
+}
+.box-contact :focus{
+    background-color:blue;
+}
+body {
+   
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    line-height: 1.8;
+}
+.contact-form h4{
+    color: #FF6F61;
+    font-size: 150%;
+    margin-top: 5%;
+}
+.map{
+    margin-left: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.header-layout {
+    grid-template-columns: 70% 30%;
+    background-color:white;
+    margin: 0px; 
+}
+h2{
+    text-align: center;
+    margin: 0%;
+    color:greenyellow;
+    font-style: italic;
+}
+footer {
+    grid-template-columns: 30% 30% 40%;
+    align-items: center;
+    text-align: center;
+    background-color: #FF6F61;
+    margin-top: 4%;
+    color:rgb(0, 0, 0); 
+}
+footer .social-icons .fa {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    color: blue;
+    font-size: 150%;
+    font-style: initial;
+    }
+img {
+    display: inherit;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    margin: 0 1% 0 1%;
+    color: rgba(0, 0, 0, 0.705);
+    font-style: inherit;
+    font-style: italic;
+}
+.grid {
+    display: grid;
+}
+.color-primary {
+    color: #FF6F61;
+}
+.logo {
+    padding: 1%;
+}
+.header-layout {
+    grid-template-columns: 70% 30%;
+    background-color:white;
+    margin: 0px; 
+}
+h2{
+    text-align: center;
+    margin: 0%;
+    color:greenyellow;
+    font-style: italic;
+}
+.about-contact h1{
+    color: blueviolet;
+    font-style: italic;
+    
+}
+.grid h2{
+    text-align: center;
+    margin-top: -3%;
+    color:burlywood;
+    
+}
+.box-title {
+    
+    font-size: 150%;
+    color: #FF6F61;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+.box-content{
+    text-align: center;
+}
+.work-box .fa{
+    font-size: 250%;
+    color:greenyellow;
+    margin-left: 5%;
+}
+.address-box p{
+margin-left: 10%;
+}
+.address-box .fa{
+    font-size: 250%;
+    color:greenyellow;
+    margin-right:20%;
+}
+.work-box p{
+    margin-left: 10%;
+}
+.input{
+   
+    max-width: 350px;
+    min-height: 200px;
+    margin-left: 450px;
+    font-style: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+}
+.input-box{
+    float: left;
+    width: 10%;
+    height: 20%;
+    margin: 0px;
+   height: 195px;
+    max-height: 195px;
+    margin-bottom: 0;
+   margin-bottom: 30px;
+}
+.box-contact :focus{
+    height: 10%;
+    width: 25%;
+    margin: 0%;
+}
+.box-contact :focus{
+    background-color:blue;
+}
+body {
+   
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    line-height: 1.8;
+}
+.contact-form h4{
+    color: #FF6F61;
+    font-size: 150%;
+    margin-top: 5%;
+}
+.map{
+    margin-left: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-container {
+    grid-template-columns: 1fr 1fr 1fr;
 }
